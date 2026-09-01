@@ -16,7 +16,7 @@ type queueUsingNode struct {
 
 func createNode(value any) *node {
 	return &node{
-		value: value,
+		value: value,    
 		next:  nil,
 	}
 }
