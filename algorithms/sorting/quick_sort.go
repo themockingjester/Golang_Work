@@ -1,3 +1,4 @@
+// ref video: https://www.youtube.com/shorts/MeBYqiehwyQ
 package main
 
 func quickSort(arr []int, low, high int) []int {
