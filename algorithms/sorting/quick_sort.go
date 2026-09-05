@@ -7,6 +7,8 @@ func quickSort(arr []int, low, high int) []int {
 		return arr
 	}
 	pivotVal := arr[high]
+
+	// Below we are putting the value of a pivot element at its current place in that passed slice window (so all small elments are on left and largers ones are on right)
 	i := low - 1   // it tracks smaller values than pivot values
 	j := low       // it tracks larger values than the pivot values
 	for j < high { // iterating through every element till pivot value
